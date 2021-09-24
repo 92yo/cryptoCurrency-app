@@ -23,11 +23,11 @@ const App = () => {
         <Layout>
           <div className="routes">
             <Switch>
-              <Route exact path="/" render={HomePage} />
-              <Route path="/exchanges" render={Exchanges} />
-              <Route path="/cryptocurrencies" render={CryptoCurrencies} />
-              <Route path="/crypto/:coinId" render={CryptoDetails} />
-              <Route path="/news" render={CryptoNews} />
+              <Route exact path="/" component={HomePage} />
+              <Route path="/exchanges" component={Exchanges} />
+              <Route path="/cryptocurrencies" component={CryptoCurrencies} />
+              <Route path="/crypto/:coinId" component={CryptoDetails} />
+              <Route path="/news" component={CryptoNews} />
             </Switch>
           </div>
         </Layout>
