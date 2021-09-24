@@ -4,6 +4,7 @@ import { Typography, Row, Col, Statistic } from "antd";
 import { Link } from "react-router-dom";
 
 import { useGetCryptoCoinsQuery } from "../services/cryptoApi";
+import { CryptoCurrencies, CryptoNews } from "../components";
 
 const { Title } = Typography;
 
@@ -47,6 +48,26 @@ const HomePage = () => {
           />
         </Col>
       </Row>
+
+      <div className="home-heading-container">
+        <Title level={2} className="home-title">
+          Top 10 Crypto Currencies in the World
+        </Title>
+        <Title level={3} className="show-more">
+          <Link to="/cryptocurrencies">Show More</Link>
+        </Title>
+      </div>
+      <CryptoCurrencies simplified />
+
+      <div className="home-heading-container">
+        <Title level={2} className="home-title">
+          Latest Crypto News
+        </Title>
+        <Title level={3} className="show-more">
+          <Link to="/news">Show More</Link>
+        </Title>
+      </div>
+      <CryptoNews simplified />
     </>
   );
 };
