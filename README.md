@@ -18,12 +18,13 @@
 
 ## :construction_worker: :construction: In the works
 
-- Exchanges tab
+- Exchanges tab ✔️
+- users register / sign in 🔴
 
 # :fast_forward: future goals
 
 ### Future goals
 
-- users register / sign in
+- users register / sign in 🔴
 - users can add favorite coins
 - light / dark option
