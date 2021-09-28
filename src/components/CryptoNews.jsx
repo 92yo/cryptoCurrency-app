@@ -5,7 +5,7 @@ import moment from "moment";
 import { useGetCryptoCoinsQuery } from "../services/cryptoApi";
 import { useGetCryptoNewsQuery } from "../services/cryptoNewsApi";
 
-import demoImage from "../images/demoImage";
+import demoImage from "../images/demoImage.jpeg";
 
 const { Text, Title } = Typography;
 const { Option } = Select;
