@@ -2,6 +2,7 @@
 
 ## App made with React Redux-toolkit, and antd.
 
+[live website](https://cryptocurrencyinfo.netlify.app/)
 ## Two Rapid API's were used - Coinrankings and bing-news
 
 ### If you would like to clone this app, make sure to configure and add your own Rapid Api Keys in `.env` file. for reference check out `.env.example`.
